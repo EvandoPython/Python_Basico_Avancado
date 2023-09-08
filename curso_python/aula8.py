@@ -1,8 +1,8 @@
 nome = "Evando"
 sobreNome = "Silva"
 idade = 41
-data_nasc = 1982
-maior_idade = True
+data_nasc = 2023 - idade
+maior_idade = idade >= 18
 altura = 1.83
 print('NOme: ',nome)
 print('Sobre Nome: ',sobreNome)
