@@ -1,5 +1,9 @@
 
-numeros = range(2, 100, 8)
+texto = 'Evando'
+interatador = iter(texto)
 
-for valor in numeros:
-    print(valor)
+while True:
+    try:
+        print(next(interatador))
+    except StopIteration:
+        break    
