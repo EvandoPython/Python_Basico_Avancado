@@ -13,3 +13,9 @@ novos_produtos = copy.deepcopy(produtos)
 print(*produtos, sep='\n')
 print()
 print(*novos_produtos, sep='\n')
+
+produtos_ordenados_por_nome = sorted(
+    produtos,
+    key=lambda p: p['nome']
+)
+
